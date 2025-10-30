@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="THvidros - Vidraçaria profissional com 7 anos de experiência em vidros temperados, guarda-corpos e portas.">
+    <title>THvidros - Vidraçaria Profissional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <!-- Added logo image to navbar -->
+                <div class="logo">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/imagem_2025-10-29_104749163-Bt1PBND3v7aOL4M3mgkaU83LvDlyZn.png" alt="THvidros Logo" class="logo-img">
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Qualidade e Confiança em Vidros</h2>
+            <p>7 anos de experiência em soluções de vidros temperados, guarda-corpos e portas</p>
+            <button class="btn btn-primary" onclick="scrollToSection('contato')">Solicitar Orçamento</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2>Sobre a THvidros</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Com mais de 7 anos no mercado, a THvidros é referência em soluções de vidros de alta qualidade. Atendemos residências e empresas em São Paulo e Osasco com profissionalismo e excelência.</p>
+                    <p>Nosso compromisso é entregar produtos e serviços que superem as expectativas dos nossos clientes, utilizando os melhores materiais e técnicas do mercado.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>7+</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Clientes Satisfeitos</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Qualidade Garantida</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔨</div>
+                    <h3>Vidros Temperados</h3>
+                    <p>Vidros de alta resistência e segurança para qualquer ambiente</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚪</div>
+                    <h3>Portas de Vidro</h3>
+                    <p>Portas modernas e funcionais para sua casa ou empresa</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Guarda-Corpos</h3>
+                    <p>Proteção elegante e segura para escadas e varandas</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Espelhos</h3>
+                    <p>Espelhos personalizados para banheiros e ambientes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentials Section -->
+    <section id="diferenciais" class="differentials">
+        <div class="container">
+            <h2>Por Que Escolher a THvidros?</h2>
+            <div class="differentials-grid">
+                <div class="differential-item">
+                    <h3>Qualidade Premium</h3>
+                    <p>Utilizamos apenas vidros de primeira qualidade com certificação de segurança</p>
+                </div>
+                <div class="differential-item">
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Equipe dedicada a entender suas necessidades e oferecer a melhor solução</p>
+                </div>
+                <div class="differential-item">
+                    <h3>Instalação Profissional</h3>
+                    <p>Técnicos experientes garantem instalação perfeita e segura</p>
+                </div>
+                <div class="differential-item">
+                    <h3>Garantia Completa</h3>
+                    <p>Todos os produtos e serviços possuem garantia de satisfação</p>
+                </div>
+                <div class="differential-item">
+                    <h3>Preços Competitivos</h3>
+                    <p>Melhor custo-benefício do mercado sem comprometer a qualidade</p>
+                </div>
+                <div class="differential-item">
+                    <h3>Entrega Rápida</h3>
+                    <p>Prazos ágeis para que seu projeto saia do papel rapidamente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2>Galeria de Trabalhos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop" alt="Vidro temperado moderno">
+                    <h3>Vidro Temperado</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop" alt="Porta de vidro elegante">
+                    <h3>Porta de Vidro</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop" alt="Guarda-corpo de vidro">
+                    <h3>Guarda-Corpo</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop" alt="Espelho personalizado">
+                    <h3>Espelho Personalizado</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop" alt="Instalação profissional">
+                    <h3>Instalação Profissional</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop" alt="Projeto customizado">
+                    <h3>Projeto Customizado</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p><strong>Telefone:</strong> (11) 98765-4321</p>
+                    <p><strong>Email:</strong> contato@thvidros.com.br</p>
+                    <p><strong>Localização:</strong> São Paulo e Osasco - SP</p>
+                    <p><strong>Horário:</strong> Segunda a Sexta, 8h às 18h</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/5511975163802" target="_blank" class="social-link">WhatsApp</a>
+                        <a href="https://www.instagram.com/vidracaria_thvidros" target="_blank" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 THvidros. Todos os direitos reservados.</p>
+            <p>Desenvolvido com qualidade e profissionalismo</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511975163802" target="_blank" class="whatsapp-btn" title="Fale conosco no WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.255.949c-1.238.503-2.335 1.236-3.356 2.258-1.688 1.694-2.684 3.957-2.684 6.378 0 1.141.214 2.228.644 3.316l-1.577 5.734 5.934-1.559c.955.603 2.06.956 3.222.956 6.026 0 10.555-4.365 10.555-9.677 0-2.594-.37-5.038-3.297-7.952-2.928-2.915-5.604-3.543-7.083-3.543z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
