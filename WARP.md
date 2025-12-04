@@ -86,7 +86,7 @@ Before deploying or making significant changes, verify/update:
 
 2. **Contact information** (in `index.html` contact section):
    - Phone: (11) 97516-3802
-   - Email: contato@thvidros.com.br
+   - Email: Comercialvidraceiro@gmail.com
    - Instagram: @vidracaria_thvidros
 
 3. **Image paths**: All gallery images use relative paths to `img/` directory. Ensure images exist before referencing them in HTML.
